@@ -1,0 +1,24 @@
+We can use this to write sever side code. Although you are not limited to the server
+Focuses on internal system to use JS
+
+Uses:
+Create server & listen for incoming request
+
+handle request, validate input, connect to DB
+
+Return responses(Render HTML, JSON)
+
+CORE MODULES WITH NODE
+http -launch server, send request
+https - launch a SSL server 
+fs - 
+path 
+os 
+
+createServer - takes a request listener, will execute for every incoming request 
+
+node <nameoffile.js> 
+    starts the script
+        parses the code, register variables and functions
+            event loop  
+                keeps and eye running as long as the are event listeners registered
